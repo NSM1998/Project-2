@@ -1,0 +1,96 @@
+/* hobby_styles.css */
+body {
+    font-family: "Times New Roman", Times, serif;
+    margin: 0;
+    padding: 20px;
+    background-color: lightblue;
+}
+.image1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 20px
+} 
+#nav_menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: beige;
+    border: 2px solid #ef9c00;
+}
+#nav_menu ul li {
+    display: inline 
+}
+#nav_menu ul li a {
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+}
+#nav_menu ul li a:hover {
+    background-color: #FFDAB9
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+    gap: 30px
+}
+.column img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+p {
+    text-align: center;
+}
+.image-box {
+    background-color: #f5f5dc; 
+    padding: 10px;
+    border-radius: 10px;
+    width: 600px; 
+    height: auto; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.image2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 341px;
+}
+.image3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 600px;
+}
+.image4{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 600px;
+}
+.image5{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 600px;
+}
+footer {
+    clear: both;
+    border-top: 2px solid beige;
+    border-bottom: 2px solid beige;
+}
