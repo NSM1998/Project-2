@@ -1,4 +1,4 @@
-/*hobby_styles.css*/
+/* hobby_styles.css */
 body {
     font-family: "Times New Roman", Times, serif;
     margin: 0;
@@ -11,6 +11,8 @@ body {
     margin-right: auto;
 }
 h2 {
+    font-size: 30px;
+    color: #ef9c00;
     text-align: center;
     margin-bottom: 20px
 } 
@@ -37,6 +39,7 @@ h2 {
     display: flex;
     justify-content: space-between;
     padding: 50px;
+    border-bottom: 2px solid beige;
 }
 .column {
     display: flex;
@@ -88,6 +91,36 @@ p {
     margin-right: auto;
     width: 600px;
     height: 600px;
+}
+h3 {
+    color: #ef9c00;
+    text-align: center; 
+    margin-top: 20px;
+    font-size: 30px;
+}
+.gallery {
+    display: inline-block; 
+    margin: 10px; 
+    text-align: center; 
+    background-color: #f5f5dc; 
+    border-radius: 4px; 
+    padding: 10px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+.gallery img {
+    width: 300px; 
+    height: auto; 
+    display: block; 
+}
+.desc {
+    margin-top: 5px; 
+    font-style: italic; 
+}
+.gallery-container {
+    display: flex; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+    margin: 20px 0; 
 }
 footer {
     clear: both;
