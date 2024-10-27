@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="keywords" content="Contact,, Hobby, HTML">
+<meta name="description" content="Hobby Model Beginner Site">
+<meta name="author" content="Nathan Medina">
+<link rel="stylesheet" href="Contact_styles.css">
+
+<title>Contact Page</title> 
+<h2>Contact Us at natemedina98@gmail.com</h2>
+<nav id="nav_menu">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Tools</a></li>
+        <li><a href="#">Paints</a></li>
+        <li><a href="#">Brushes</a></li>
+        <li><a href="#">Varnishes</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+    </ul>
+</nav>
+<form action="mailto:natemedina98@gmail.com" method="post" enctype="text/plain">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" required></textarea><br><br>
+
+    <label for="subject">Subject:</label><br>
+    <input type="text" id="subject" name="subject" required><br><br>
+
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+</form>
