@@ -1,0 +1,49 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    margin: 0;
+    padding: 20px;
+    background-color: lightblue;
+}
+h2 {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    color: #ef9c00;
+    text-align: center;
+    margin-bottom: 20px
+    
+} 
+#nav_menu ul {
+    font-family: 'Times New Roman', Times, serif;
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: beige;
+    border: 2px solid #ef9c00;
+}
+#nav_menu ul li {
+    display: inline 
+}
+#nav_menu ul li a {
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+}
+#nav_menu ul li a:hover {
+    background-color: #FFDAB9
+}
+.accordion {
+    font-family: "Times New Roman", Times, serif;
+}
+.accordion-button {
+    background-color: #f8f9fa;
+    font-weight: bold;
+}
+.accordion-button:not(.collapsed) {
+    background-color: #ef9c00; 
+}
+.image3 {
+    width: 500px; 
+    height: 500px;  
+}

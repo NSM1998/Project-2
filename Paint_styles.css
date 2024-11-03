@@ -1,0 +1,58 @@
+body {
+    background-color: lightblue;
+    font-family: "Times New Roman", Times, serif;
+    margin: 0;
+    padding: 20px;
+}
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: #ef9c00;
+    text-align: center;
+    margin-bottom: 20px
+} 
+#nav_menu ul {
+    font-family: 'Times New Roman', Times, serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: beige;
+    border: 2px solid #ef9c00;
+}
+#nav_menu ul li {
+    display: inline 
+}
+#nav_menu ul li a {
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+}
+#nav_menu ul li a:hover {
+    background-color: #FFDAB9
+}
+.container {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    border-bottom: 2px solid beige;
+}
+.card {
+    transition: transform 0.2s; 
+    background-color: beige;
+}
+.card-title {
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.card-text {
+    font-family: 'Times New Roman', Times, serif;
+}
+.card:hover {
+    transform: scale(1.05); 
+}
+.card-img-top {
+    height: 500px; 
+    object-fit: cover; 
+}
